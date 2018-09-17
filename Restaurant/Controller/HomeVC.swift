@@ -57,10 +57,15 @@ class HomeVC: UIViewController {
         super.viewWillLayoutSubviews()
         
         //make the button round
+        createRoundButton()
+        
+    }
+    
+    private func createRoundButton(){
+    
         floatingBtn.layer.cornerRadius = floatingBtn.frame.width / 2
         floatingBtn.layer.borderWidth = 0.25
         floatingBtn.layer.borderColor = UIColor.lightGray.cgColor
-        
     }
     
     
