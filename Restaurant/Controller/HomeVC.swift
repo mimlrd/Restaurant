@@ -69,7 +69,7 @@ class HomeVC: UIViewController {
         
         let titleLabel = UILabel(frame: CGRect(x: 0, y: 0, width: view.frame.width - 32, height: view.frame.height ))
         titleLabel.text = "La Fourchette"
-        titleLabel.font = UIFont(name: "Didot-Bold", size: 20)
+        titleLabel.font = UIFont(name: "Didot-Bold", size: 25)
         titleLabel.textColor = UIColor.rgb(153, green: 175, blue: 142)
         navigationItem.titleView = titleLabel
     }
