@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="smallRestoCell" id="gTV-IL-0wX" customClass="RestoSmallCell" customModule="Restaurant" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="369" height="374"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="369" height="374"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OKQ-fH-SFJ">
+                        <rect key="frame" x="0.0" y="0.0" width="369" height="374"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="libanais" translatesAutoresizingMaskIntoConstraints="NO" id="gsw-M1-DCg">
+                                <rect key="frame" x="0.0" y="0.0" width="369" height="223"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="gsw-M1-DCg" secondAttribute="height" multiplier="369:223" id="eJ2-Sr-6sS"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 Threes Restaurant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKx-Zm-DpU">
+                                <rect key="frame" x="20" y="238" width="329" height="24"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Libanais" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yd3-mJ-lRx">
+                                <rect key="frame" x="20" y="272" width="329" height="17.5"/>
+                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="14"/>
+                                <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="Bhb-wi-bhu">
+                                <rect key="frame" x="20" y="299" width="329" height="40"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="IAq-i5-atO">
+                                        <rect key="frame" x="0.0" y="0.0" width="86.5" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cuisine" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWj-BD-UVy">
+                                                <rect key="frame" x="0.0" y="0.0" width="86.5" height="16.5"/>
+                                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="8.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rm-pE-mQJ">
+                                                <rect key="frame" x="0.0" y="19.5" width="86.5" height="15.5"/>
+                                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VRd-2O-XTW">
+                                                <rect key="frame" x="0.0" y="38" width="86.5" height="2"/>
+                                                <color key="backgroundColor" red="0.59999999999999998" green="0.68627450980000004" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="2" id="0qG-EN-S7h"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Jfh-Mk-565">
+                                        <rect key="frame" x="121.5" y="0.0" width="86" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Service" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vos-kB-W6D">
+                                                <rect key="frame" x="0.0" y="0.0" width="86" height="16.5"/>
+                                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="9.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KQ8-lx-qeg">
+                                                <rect key="frame" x="0.0" y="19.5" width="86" height="15.5"/>
+                                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wEy-Za-mpb">
+                                                <rect key="frame" x="0.0" y="38" width="86" height="2"/>
+                                                <color key="backgroundColor" red="0.59999999999999998" green="0.68627450980000004" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="2" id="rhO-Fw-ovr"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="949-7s-6zk">
+                                        <rect key="frame" x="242.5" y="0.0" width="86.5" height="40"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cadre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tp4-hv-vwn">
+                                                <rect key="frame" x="0.0" y="0.0" width="86.5" height="16.5"/>
+                                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNA-k3-sKP">
+                                                <rect key="frame" x="0.0" y="19.5" width="86.5" height="15.5"/>
+                                                <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fyL-Cx-I2L">
+                                                <rect key="frame" x="0.0" y="38" width="86.5" height="2"/>
+                                                <color key="backgroundColor" red="0.59999999999999998" green="0.68627450980000004" blue="0.5568627451" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="2" id="f6v-Js-Vaa"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ufh-Uo-K5M"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Bhb-wi-bhu" firstAttribute="top" secondItem="yd3-mJ-lRx" secondAttribute="bottom" constant="10" id="6JU-Jo-dGd"/>
+                            <constraint firstItem="iKx-Zm-DpU" firstAttribute="top" secondItem="gsw-M1-DCg" secondAttribute="bottom" constant="15" id="Cqh-Eb-fH0"/>
+                            <constraint firstItem="iKx-Zm-DpU" firstAttribute="leading" secondItem="OKQ-fH-SFJ" secondAttribute="leading" constant="20" id="FUo-gw-7HZ"/>
+                            <constraint firstItem="gsw-M1-DCg" firstAttribute="top" secondItem="OKQ-fH-SFJ" secondAttribute="top" id="Lfb-uV-wpE"/>
+                            <constraint firstAttribute="trailing" secondItem="gsw-M1-DCg" secondAttribute="trailing" id="QFE-Lg-iuI"/>
+                            <constraint firstItem="gsw-M1-DCg" firstAttribute="leading" secondItem="OKQ-fH-SFJ" secondAttribute="leading" id="TjP-NV-0Jq"/>
+                            <constraint firstItem="Bhb-wi-bhu" firstAttribute="leading" secondItem="yd3-mJ-lRx" secondAttribute="leading" id="ZiP-cu-g22"/>
+                            <constraint firstItem="Bhb-wi-bhu" firstAttribute="trailing" secondItem="yd3-mJ-lRx" secondAttribute="trailing" id="lOj-cb-1Hn"/>
+                            <constraint firstItem="yd3-mJ-lRx" firstAttribute="trailing" secondItem="iKx-Zm-DpU" secondAttribute="trailing" id="nmT-W8-1j9"/>
+                            <constraint firstAttribute="trailing" secondItem="iKx-Zm-DpU" secondAttribute="trailing" constant="20" id="pUv-rG-7iA"/>
+                            <constraint firstItem="yd3-mJ-lRx" firstAttribute="leading" secondItem="iKx-Zm-DpU" secondAttribute="leading" id="qxH-b7-BXi"/>
+                            <constraint firstItem="yd3-mJ-lRx" firstAttribute="top" secondItem="iKx-Zm-DpU" secondAttribute="bottom" constant="10" id="ztF-DJ-FrU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="OKQ-fH-SFJ" secondAttribute="bottom" id="3h0-0P-B1k"/>
+                <constraint firstAttribute="trailing" secondItem="OKQ-fH-SFJ" secondAttribute="trailing" id="PWI-N5-tHz"/>
+                <constraint firstItem="OKQ-fH-SFJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="kJ4-im-LXP"/>
+                <constraint firstItem="OKQ-fH-SFJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="vNW-so-ef5"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="375" height="374"/>
+            <connections>
+                <outlet property="cookingScroreLbl" destination="3rm-pE-mQJ" id="qIF-0v-aHM"/>
+                <outlet property="restoImageView" destination="gsw-M1-DCg" id="axc-sc-iq8"/>
+                <outlet property="restoNameLbl" destination="iKx-Zm-DpU" id="haL-nB-W4m"/>
+                <outlet property="restoTypeLbl" destination="yd3-mJ-lRx" id="TcC-eL-hdD"/>
+                <outlet property="serviceScoreLbl" destination="KQ8-lx-qeg" id="5SV-BL-Adn"/>
+                <outlet property="settingScoreLbl" destination="LNA-k3-sKP" id="Sit-wf-3lI"/>
+            </connections>
+            <point key="canvasLocation" x="39.5" y="118"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="libanais" width="125" height="125"/>
+    </resources>
+</document>

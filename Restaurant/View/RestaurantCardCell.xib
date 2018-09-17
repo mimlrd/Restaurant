@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="429" id="KGk-i7-Jjw" customClass="RestaurantCardCell" customModule="Restaurant" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="429"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="428.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="libanais" translatesAutoresizingMaskIntoConstraints="NO" id="GQY-pC-380">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="227"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="GQY-pC-380" secondAttribute="height" multiplier="320:227" id="Gik-JZ-Tkv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 Threes Restaurant" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EcA-77-Loo">
+                        <rect key="frame" x="15" y="242" width="290" height="22.5"/>
+                        <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="19"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restaurant Libanais" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SpS-Kg-2mb">
+                        <rect key="frame" x="15" y="265.5" width="290" height="17.5"/>
+                        <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="14"/>
+                        <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Un super restaurant Libanais avec les meilleurs de la cuisine libanaise." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y4b-5Y-ppn">
+                        <rect key="frame" x="15" y="298" width="290" height="35"/>
+                        <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="14"/>
+                        <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="112 rue Tousaint 78000 Versailles" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXf-ag-PH3">
+                        <rect key="frame" x="15" y="343" width="290" height="15"/>
+                        <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="12"/>
+                        <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="di3-34-Sxg">
+                        <rect key="frame" x="15" y="368" width="290" height="50"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="00L-jw-4td">
+                                <rect key="frame" x="0.0" y="0.0" width="86.5" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.5/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79V-Yd-E4l">
+                                        <rect key="frame" x="26" y="17.5" width="35" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="79V-Yd-E4l" firstAttribute="centerY" secondItem="00L-jw-4td" secondAttribute="centerY" id="fy4-Ew-MhK"/>
+                                    <constraint firstItem="79V-Yd-E4l" firstAttribute="centerX" secondItem="00L-jw-4td" secondAttribute="centerX" id="vBx-EP-98y"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8fp-5O-3qR">
+                                <rect key="frame" x="101.5" y="0.0" width="87" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.5/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sGA-re-hNK">
+                                        <rect key="frame" x="26" y="17.5" width="35" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="sGA-re-hNK" firstAttribute="centerX" secondItem="8fp-5O-3qR" secondAttribute="centerX" id="FxQ-ZW-dXa"/>
+                                    <constraint firstItem="sGA-re-hNK" firstAttribute="centerY" secondItem="8fp-5O-3qR" secondAttribute="centerY" id="nD0-gO-gGX"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zkS-z9-kgp">
+                                <rect key="frame" x="203.5" y="0.0" width="86.5" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.5/10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yUb-R5-FT6">
+                                        <rect key="frame" x="25.5" y="17.5" width="35" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="13"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="yUb-R5-FT6" firstAttribute="centerY" secondItem="zkS-z9-kgp" secondAttribute="centerY" id="1UN-wC-H5f"/>
+                                    <constraint firstItem="yUb-R5-FT6" firstAttribute="centerX" secondItem="zkS-z9-kgp" secondAttribute="centerX" id="RkW-ut-3pP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jXf-ag-PH3" firstAttribute="trailing" secondItem="Y4b-5Y-ppn" secondAttribute="trailing" id="0xi-Kn-bCc"/>
+                    <constraint firstItem="SpS-Kg-2mb" firstAttribute="top" secondItem="EcA-77-Loo" secondAttribute="bottom" constant="1" id="558-bT-H45"/>
+                    <constraint firstAttribute="trailing" secondItem="di3-34-Sxg" secondAttribute="trailing" constant="15" id="Bb8-zM-PlV"/>
+                    <constraint firstItem="Y4b-5Y-ppn" firstAttribute="leading" secondItem="SpS-Kg-2mb" secondAttribute="leading" id="Cyu-Yk-5uW"/>
+                    <constraint firstItem="jXf-ag-PH3" firstAttribute="top" secondItem="Y4b-5Y-ppn" secondAttribute="bottom" constant="10" id="LRM-aK-C9S"/>
+                    <constraint firstItem="di3-34-Sxg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="MUm-Uh-pTh"/>
+                    <constraint firstItem="EcA-77-Loo" firstAttribute="top" secondItem="GQY-pC-380" secondAttribute="bottom" constant="15" id="MyO-8e-dgv"/>
+                    <constraint firstItem="GQY-pC-380" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ODw-mj-enA"/>
+                    <constraint firstAttribute="bottom" secondItem="di3-34-Sxg" secondAttribute="bottom" constant="10" id="RJs-gk-yPf"/>
+                    <constraint firstItem="jXf-ag-PH3" firstAttribute="leading" secondItem="Y4b-5Y-ppn" secondAttribute="leading" id="Xsm-wn-UM5"/>
+                    <constraint firstItem="GQY-pC-380" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bkv-R6-r7R"/>
+                    <constraint firstAttribute="trailing" secondItem="GQY-pC-380" secondAttribute="trailing" id="est-3S-DRg"/>
+                    <constraint firstItem="SpS-Kg-2mb" firstAttribute="trailing" secondItem="EcA-77-Loo" secondAttribute="trailing" id="h5q-8l-UH8"/>
+                    <constraint firstItem="Y4b-5Y-ppn" firstAttribute="top" secondItem="SpS-Kg-2mb" secondAttribute="bottom" constant="15" id="i48-Hr-Oe7"/>
+                    <constraint firstItem="Y4b-5Y-ppn" firstAttribute="trailing" secondItem="SpS-Kg-2mb" secondAttribute="trailing" id="iwT-60-gPh"/>
+                    <constraint firstItem="di3-34-Sxg" firstAttribute="top" secondItem="jXf-ag-PH3" secondAttribute="bottom" constant="10" id="mEf-KC-QY8"/>
+                    <constraint firstItem="EcA-77-Loo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="pkj-SM-iXj"/>
+                    <constraint firstItem="SpS-Kg-2mb" firstAttribute="leading" secondItem="EcA-77-Loo" secondAttribute="leading" id="ven-DH-MZz"/>
+                    <constraint firstAttribute="trailing" secondItem="EcA-77-Loo" secondAttribute="trailing" constant="15" id="wX5-3y-r3h"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="cardImageView" destination="GQY-pC-380" id="Rsj-Fz-H41"/>
+                <outlet property="cardRestaurantAddressLbl" destination="jXf-ag-PH3" id="KDv-vr-59Q"/>
+                <outlet property="cardRestaurantTypeLbl" destination="SpS-Kg-2mb" id="xHI-9p-zjh"/>
+                <outlet property="cardShortSummaryLbl" destination="Y4b-5Y-ppn" id="csb-6L-rif"/>
+                <outlet property="cartTitleLbl" destination="EcA-77-Loo" id="8wI-eD-SrU"/>
+            </connections>
+            <point key="canvasLocation" x="-7" y="55.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="libanais" width="125" height="125"/>
+    </resources>
+</document>
